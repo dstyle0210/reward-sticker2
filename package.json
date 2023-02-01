@@ -1,0 +1,19 @@
+{
+  "name": "reward-sticker2",
+  "version": "1.0.0",
+  "description": "마봉칭찬스티커 업데이트 버전",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dstyle0210/reward-sticker2.git"
+  },
+  "author": "dstyle0210",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dstyle0210/reward-sticker2/issues"
+  },
+  "homepage": "https://github.com/dstyle0210/reward-sticker2#readme"
+}
