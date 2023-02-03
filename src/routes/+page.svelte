@@ -1,6 +1,7 @@
 <script lang="ts">
 import {selectSticker , setSticker} from "../service/firebase";
 import pokemonData from "../data/pokemonList.json";
+import A_Sticker from "../component/atom/sticker.svelte";
 let result = [{}];
 async function select(){
   result = await selectSticker();
@@ -37,8 +38,6 @@ function findPokemon(buid:number){
 <button on:click={lots}>뽑기</button>
 
 
-<style lang="scss">
-.test{
-  span{color:blue;}
-}
-</style>
+<A_Sticker></A_Sticker>
+
+<div id="modal"></div>
