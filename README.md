@@ -19,6 +19,12 @@ npm run build
 
 
 
+## TODO
+- 이미지 삽입하기
+- 뽑기 기능 만들기 : 모달로 띄우기? : 부트스트랩 연동?
+- 퍼블리싱 해놓기 : 디자인은?
+
+
 
 ### links
 [svelte](https://svelte.dev/)
