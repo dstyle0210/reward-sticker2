@@ -2,6 +2,8 @@
 import {selectSticker , setSticker} from "../service/firebase";
 import pokemonData from "../data/pokemonList.json";
 import A_Sticker from "../component/atom/sticker.svelte";
+import ASIDE_CardPack from "../component/aside/cardPack.svelte";
+
 let result = [{}];
 async function select(){
   result = await selectSticker();
@@ -37,7 +39,6 @@ function findPokemon(buid:number){
 <button on:click={()=>findPokemon(1224)}>코라이돈</button>
 <button on:click={lots}>뽑기</button>
 
+<ASIDE_CardPack></ASIDE_CardPack>
 
 <A_Sticker></A_Sticker>
-
-<div id="modal"></div>
